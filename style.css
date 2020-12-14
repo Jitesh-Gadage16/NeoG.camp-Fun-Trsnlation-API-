@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+
+/* font-family: 'Roboto Mono', monospace; */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+} */
+body{
+    font-family: 'Roboto Mono', monospace;
+    
+}
+#txt-input{ 
+    width: 50%;
+    height: 15vh;
+    display: block;
+    /* padding: 1rem; */
+    position: relative;
+    left: 22%;
+    top: 0%;
+    margin-bottom: 1rem;
+    /* margin: 2rem 6rem; */
+    border-radius: 10px;
+}
+h1{
+    background-color: yellow;
+    text-transform: uppercase;
+    text-align: center;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+
+}
+button{
+     background-color: yellow;
+     color: black;
+     padding: 0.6rem;
+     position: relative;
+     left: 42%;
+     top: 50%;
+     border-style: none;
+     font-weight: bold;
+     font-size: 20px;
+}
+button:hover{
+    border:  2px solid black;
+}
+hr{
+    width: 52%;
+    position: relative;
+    left: 0%;
+    right: 0%;
+    margin-top: 30px;
+    
+}
+
+#output {
+    border: 1px solid black;
+    height: 10vh;
+    width: 50%;
+    margin: 1rem;
+    padding: 1rem;
+    position: relative;
+    left: 20%;
+    right: 5%;
+   border-radius: 10px;
+}
+.outputdiv{
+    text-align: center;
+    padding: 0.8rem 0;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 24px;
+}
+footer{
+    background-color: yellow;
+    padding: 10px 0;
+}
+footer h2,
+p{
+    text-align: center;
+    
+}
