@@ -6,9 +6,10 @@
 
 body{
     font-family: 'Roboto Mono', monospace;
-    
+    background-color: #FDE68A;
 }
 #txt-input{ 
+    max-width:800px;
     width: 50%;
     height: 15vh;
     display: block;
@@ -16,22 +17,30 @@ body{
     position: relative;
     left: 22%;
     top: 0%;
-    margin-bottom: 1rem;
-    /* margin: 2rem 6rem; */
+    /* margin-bottom: 1rem; */
+    margin: 2rem 1rem;
     border-radius: 10px;
+    background-color: transparent;
+    
+}
+textarea::placeholder{
+    padding: 1rem;
 }
 h1{
-    background-color: yellow;
+    margin: 0;
+    background-color: #FBBF24;
     text-transform: uppercase;
     text-align: center;
     height: 15vh;
     display: flex;
     justify-content: center;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
 
 }
 button{
-     background-color: yellow;
-     color: black;
+     background-color: #FBBF24;
+     color: #B45309;
      padding: 0.6rem;
      position: relative;
      left: 42%;
@@ -41,7 +50,7 @@ button{
      font-size: 20px;
 }
 button:hover{
-    border:  2px solid black;
+    border:  2px solid #B45309;
 }
 hr{
     width: 52%;
@@ -53,6 +62,7 @@ hr{
 }
 
 #output {
+    max-width: 800px;
     border: 1px solid black;
     height: 10vh;
     width: 50%;
@@ -71,8 +81,10 @@ hr{
     font-size: 24px;
 }
 footer{
-    background-color: yellow;
+    background-color: #FBBF24;
     padding: 10px 0;
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 footer h2,
 p{
